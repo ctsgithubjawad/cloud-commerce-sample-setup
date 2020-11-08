@@ -3,7 +3,8 @@
     <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
     <!-- added -->
     <extension name= 'ycommercewebservices' />
-	  <extension name= 'ycommercewebservicestest' />
+    <extension name= 'ycommercewebservicestest' />
+    <extension name= 'acceleratorwebservicesaddon' />
     <!-- end -->
     
     
