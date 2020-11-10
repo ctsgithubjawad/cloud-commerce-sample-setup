@@ -71,12 +71,6 @@
     ],
 	    "storefrontAddons": [
 
-
-		{
-            "addon": "acceleratorwebservicesaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "ycommercewebservices"
-        },
         {
             "addon": "smarteditaddon",
             "storefront": "yacceleratorstorefront",
