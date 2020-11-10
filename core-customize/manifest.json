@@ -1,7 +1,6 @@
 {
     "commerceSuiteVersion": "2005",
     "extensions": [
-		"modeltacceleratorservices",
 		"adaptivesearchsolr",
 		"adaptivesearchbackoffice",
 		"adaptivesearchwebservices",
