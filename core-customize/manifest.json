@@ -19,6 +19,10 @@
             "key": "website.powertools.https",
             "value": "https://localhost:9002/yaccelaratorstorefront/?site=powertools",
 			"persona": "development"
+        },
+	{
+                "location": "/hybris/config/local.properties",
+                "persona": "development"
         }
 		
     ],
