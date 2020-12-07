@@ -1,74 +1,36 @@
 {
     "commerceSuiteVersion": "2005",
-    "extensions": [
-		"adaptivesearchsolr",
-		"adaptivesearchbackoffice",
-		"adaptivesearchwebservices",
-		"commerceservicesbackoffice",
-		"solrfacetsearchbackoffice",
-		"solrserver",
-		"acceleratorwebservicesaddon",
-		"orderselfserviceaddon",
-		"customersupportbackoffice",
-		"customerticketingaddon",
-		"rulebuilderbackoffice",
-		"couponbackoffice",
-		"droolsruleengineservices",
-		"couponfacades",
-		"cmswebservices",
-		"previewwebservices",
-		"smartedit",
-		"npmancillary",
-		"smarteditwebservices",
-		"cmssmarteditwebservices",
-		"permissionswebservices",
-		"smarteditaddon",
-		"cmssmartedit",
-		"cmsbackoffice",
-		"previewpersonalizationweb",
-		"personalizationcmsweb",
-		"personalizationsmartedit",
-		"personalizationpromotionssmartedit",
-		"personalizationpromotions",
-		"personalizationpromotionsweb",
-		"personalizationservicesbackoffice",
-		"personalizationpromotionsbackoffice",
-		"personalizationcmsbackoffice",
-		"personalizationsearchbackoffice",
-		"personalizationsearchsmartedit",
-		"personalizationsearchweb",
-		"textfieldconfiguratortemplatebackoffice",
-		"textfieldconfiguratortemplateaddon",
-		"assistedservicestorefront",
-		"assistedservicewebservices",
-		"assistedservicepromotionaddon",
-		"b2bcommercebackoffice",
-		"powertoolsstore",
-		"backofficesolrsearch",
-		"pcmbackoffice"
-		
-    ],
-
-
-
-
+"extensions": [
+        "cloudmediaconversion",  
+        "mediaconversionbackoffice"
+	],
+"useConfig": {
     "properties": [
         {
             "key": "lang.packs",
             "value": "en,de"
         },
-		{
+	{
             "key": "website.powertools.http",
             "value": "http://localhost:9002/yaccelaratorstorefront/?site=powertools",
 			"persona": "development"
         },
-		{
+	{
             "key": "website.powertools.https",
             "value": "https://localhost:9002/yaccelaratorstorefront/?site=powertools",
 			"persona": "development"
         }
 		
     ],
+    "extensions": {
+            "location": "/hybris/config/localextensions.xml",
+            "exclude": [
+                "azurecloudhotfolder",
+                "cloudcommons",
+                "cloudhotfolder"
+            ]
+        }
+    },
 
     "aspects": [
         {
